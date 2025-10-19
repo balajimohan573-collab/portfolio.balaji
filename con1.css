@@ -1,0 +1,70 @@
+/* Contact Section */
+.contact {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    color: snow;
+}
+
+/* Headings */
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: snow;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+}
+
+/* Labels */
+.contact label {
+    font-size: 16px;
+    color: #f5f5f5;
+    font-weight: 500;
+}
+
+/* Inputs and Textarea */
+.contact input,
+.contact textarea {
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgba(255,255,255,0.9);
+    transition: all 0.3s ease;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: aqua;
+    box-shadow: 0 0 8px aqua;
+}
+
+/* Button */
+.contact button {
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: rgb(0, 255, 170);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px aqua;
+}
